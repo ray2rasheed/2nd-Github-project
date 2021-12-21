@@ -1,0 +1,85 @@
+/* CSS for Animal Trading Cards  */
+body {
+  background-image: url("https://wallpaperscraft.com/image/fire_background_dark_lines_47328_1920x1200.jpg");
+color: #222;
+  font-family: "Oxygen", sans-serif;
+}
+#container {
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: #FF7F50;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  	width: 300px;
+  	margin: 1em auto;
+	-webkit-box-shadow: 10px 10px 12px -2px 
+ 
+}
+#card{
+  border: 5px solid black;
+  width: 95%;
+  height: 95%;
+  padding: 10px;
+  margin: 5px;
+}
+img {
+  width: 300px;
+}
+.animal-info {
+	border: 1px solid;
+  	border-radius: 1em;
+  	padding: 1em;
+  	margin: 1em 0 0 0;
+}
+#interesting-fact {
+  text-align: center;
+  font-style: italic;
+}
+span {
+  font-weight: bold;
+}
+
+p {
+  padding-left: 5px;
+  margin: 5px;
+}
+ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+  font-size: 35px;
+  margin: 0;
+  padding: 10px;
+}
+
+.animal img {
+  width: 300px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.animal-info {
+  position: relative;
+  border: 3px double #000;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  background-color: #ffebcd;
+}
+
+.interesting-fact, 
+.text {
+  font-style: italic;
+}
+
+.facts-list{
+  list-style: none;   /*removes the bullet points for the list items*/
+  margin: 0;
+  padding: 0;
+}
+
+.label {
+  font-weight: bold;
+}
